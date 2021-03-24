@@ -17,7 +17,6 @@
     <!--Etiquetas semanticas-->
     <h5>Esto es un h5</h5>
     <h6>Esto es un h6</h6>
-    
 
     <a href="https://www.google.com.ar/">Ir a Google</a>
     <br />
@@ -40,97 +39,125 @@
     </ul>
 
     <ol>
-        <li>C</li>
-        <li>C#</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
+      <li>C</li>
+      <li>C#</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
     </ol>
 
-
-<style>
-    table, td, th{
+    <style>
+      table,
+      td,
+      th {
         border: 1px solid black;
         border-collapse: collapse;
         padding: 3px;
         text-align: center;
-    }
-</style>
+      }
 
-<table>
-    <caption>Asignaturas</caption>
-    <thead>
-        <tr>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miercoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="2">Ingles</td>
-            <td>Matematica</td>
-            <td>Programacion</td>
-            <td>Laboratorio</td>
-            <td>Sarasa</td>
-        </tr>
-        <tr>
-            <td>b</td>
-            <td>c</td>
-            <td>d</td>
-            <td>e</td>
-        </tr>
-        <tr>
-            <td>a</td>
-            <td>b</td>
-            <td>c</td>
-            <td>d</td>
-            <td>e</td>
-        </tr>
-        <tr>
-            <td colspan="5">
-                Recreo
-            </td>
-        </tr>
-        <tr>
-            <td>a</td>
-            <td>b</td>
-            <td>c</td>
-            <td>d</td>
-            <td>e</td>
-        </tr>
-        <tr>
-            <td>a</td>
-            <td>b</td>
-            <td>c</td>
-            <td>d</td>
-            <td>e</td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-        </tr>
-    </tfoot>
-</table>
+      tbody > tr:nth-child(1) {
+        background-color: chartreuse;
+      }
 
+      col:nth-child(2) {
+        background-color: rgb(255, 0, 0);
+      }
+    </style>
+
+    <table>
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
+      <caption>
+        Asignaturas
+      </caption>
+      <thead>
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Ingles</td>
+          <td>Matematica</td>
+          <td>Programacion</td>
+          <td>Laboratorio</td>
+          <td>Sarasa</td>
+        </tr>
+        <tr>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+          <td>e</td>
+        </tr>
+        <tr>
+          <td>a</td>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+          <td>e</td>
+        </tr>
+        <tr>
+          <td colspan="5">Recreo</td>
+        </tr>
+        <tr>
+          <td>a</td>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+          <td>e</td>
+        </tr>
+        <tr>
+          <td>a</td>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+          <td>e</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+      </tfoot>
+    </table>
 
     <dl>
-        <dt>JavaScript</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam, temporibus quia vero ut, ab ullam natus porro consectetur placeat aliquid perspiciatis tempora minus, illum deleniti? Incidunt aspernatur ducimus reprehenderit!</dd>
-        <dt>PHP</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam, temporibus quia vero ut, ab ullam natus porro consectetur placeat aliquid perspiciatis tempora minus, illum deleniti? Incidunt aspernatur ducimus reprehenderit!</dd>
-        <dt>Visual Basic</dt>
-        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam, temporibus quia vero ut, ab ullam natus porro consectetur placeat aliquid perspiciatis tempora minus, illum deleniti? Incidunt aspernatur ducimus reprehenderit!</dd>
+      <dt>JavaScript</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam,
+        temporibus quia vero ut, ab ullam natus porro consectetur placeat
+        aliquid perspiciatis tempora minus, illum deleniti? Incidunt aspernatur
+        ducimus reprehenderit!
+      </dd>
+      <dt>PHP</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam,
+        temporibus quia vero ut, ab ullam natus porro consectetur placeat
+        aliquid perspiciatis tempora minus, illum deleniti? Incidunt aspernatur
+        ducimus reprehenderit!
+      </dd>
+      <dt>Visual Basic</dt>
+      <dd>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nam,
+        temporibus quia vero ut, ab ullam natus porro consectetur placeat
+        aliquid perspiciatis tempora minus, illum deleniti? Incidunt aspernatur
+        ducimus reprehenderit!
+      </dd>
 
-        <table>
-
-        </table>
+      <table></table>
     </dl>
 
     <h2 id="js">JavaScript</h2>

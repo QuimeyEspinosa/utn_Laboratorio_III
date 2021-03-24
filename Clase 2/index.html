@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hola mundo</title>
+    <link rel="shortcut icon" href="./img/utn.png" type="image/x-icon" />
+  </head>
+  <body>
+    <h1 id="top">Lenguajes de programación</h1>
+
+    <ul type="disc">
+      <li>Python</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+    </ul>
+
+    <ol>
+      <li>C</li>
+      <li>C#</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+    </ol>
+
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        padding: 3px;
+        text-align: center;
+      }
+
+      tbody > tr:nth-child(1) {
+        background-color: #7fff00;
+      }
+
+      col:nth-child(2) {
+        background-color: #a9a9a9;
+      }
+
+      .orange {
+        color: #ffa500;
+      }
+
+      .mayuscula {
+        text-transform: uppercase;
+      }
+
+      /*odd pinta los impares*/
+      p:nth-child(odd) {
+        background-color: #00ffff;
+      }
+
+      /*even pinta los pares*/
+      p:nth-child(even) {
+        background-color: #ff0000;
+      }
+
+      /*Modificar el ultimo span*/
+      p:nth-last-child(2) span {
+        background-color: #00ff55;
+      }
+    </style>
+
+    <table>
+      <colgroup>
+        <col />
+        <col />
+        <col />
+        <col />
+        <col />
+      </colgroup>
+
+      <caption>
+        Asignaturas
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Ingles</td>
+          <td>Matematica</td>
+          <td>Programacion</td>
+          <td>Laboratorio</td>
+          <td>Sarasa</td>
+        </tr>
+        <tr>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+          <td>e</td>
+        </tr>
+        <tr>
+          <td>a</td>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+          <td>e</td>
+        </tr>
+        <tr>
+          <td colspan="5">Recreo</td>
+        </tr>
+        <tr>
+          <td>a</td>
+          <td>b</td>
+          <td>c</td>
+          <td>d</td>
+          <td>e</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="orange">
+      <!--<div> es un contenedor-->
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+        repudiandae amet ipsam itaque aut aperiam praesentium nesciunt est
+        accusamus voluptas!
+        <span class="mayuscula">Molestiae quidem mollitia</span> consequatur
+        repellendus necessitatibus <u>nam quas beatae libero.</u>
+      </p>
+      <p>
+        Molestias praesentium adipisci harum autem ratione odit deleniti fugit
+        facere eligendi! Quam quasi repudiandae reprehenderit eaque sequi
+        corrupti autem, error, culpa mollitia, at laudantium doloribus libero
+        alias cum! Cumque, asperiores.
+      </p>
+      <p>
+        Labore sequi praesentium rem nemo?
+        <span>Earum magni ducimus</span> optio praesentium, sunt dolore ut ullam
+        ad deserunt molestiae repudiandae autem maxime porro excepturi odit,
+        reprehenderit amet ipsam totam nemo deleniti in.
+      </p>
+      <p>
+        Molestias praesentium adipisci harum autem ratione odit deleniti fugit
+        facere eligendi! Quam quasi repudiandae reprehenderit eaque sequi
+        corrupti autem, error, culpa mollitia, at laudantium doloribus libero
+        alias cum! Cumque, asperiores.
+      </p>
+      <p>
+        Molestias praesentium adipisci harum autem ratione odit deleniti fugit
+        facere eligendi! <span>Earum magni ducimus</span> reprehenderit eaque sequi
+        corrupti autem, error, culpa mollitia, at laudantium doloribus libero
+        alias cum! Cumque, asperiores.
+      </p>
+      <p>
+        Molestias praesentium adipisci harum autem ratione odit deleniti fugit
+        facere eligendi! Quam quasi repudiandae reprehenderit eaque sequi
+        corrupti autem, error, culpa mollitia, at laudantium doloribus libero
+        alias cum! Cumque, asperiores.
+      </p>
+    </div>
+  </body>
+</html>
