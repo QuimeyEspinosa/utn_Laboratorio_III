@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="./styles/style.css" />-->
+    <title>Inmobiliaria</title>
+  </head>
+  <style>
+    body {
+      font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    /*------HEADER-----*/
+
+    header {
+      height: 500px;
+      background-image: url(./images/header.jpg);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px;
+      color: #fff;
+    }
+
+    .encabezado {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    header ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    header ul li a {
+      margin: 10px;
+      text-decoration: none;
+      color: white;
+    }
+
+    h1 {
+      width: 500px;
+      line-height: 70px;
+    }
+
+    /*------SECTION-----*/
+
+    section {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    section h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 100;
+    }
+
+    #sectionUno {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .articuloSection {
+      margin: 20px 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .articuloSection img {
+      height: 80px;
+      margin: 10px;
+    }
+
+    .articuloSection h3 {
+      text-transform: uppercase;
+      font-size: 30px;
+    }
+
+    /*-----MAIN----*/
+
+    main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 100;
+    }
+
+    .articles-container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .mainImage {
+      height: 300px;
+      width: 350px;
+    }
+
+    article {
+      height: 600px;
+      width: 350px;
+      margin: 10px;
+      border: 1px solid #d6d6d6;
+      background-color: #fafafa;
+    }
+
+    article h3 {
+      display: flex;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 100;
+      margin: 30px 15px 5px 15px;
+    }
+
+    article p {
+      margin: 5px 15px;
+      line-height: 28px;
+    }
+
+    .priceText {
+      color: #7dd100;
+      font-weight: 400;
+    }
+
+    article ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-around;
+    }
+
+    .icon-article {
+      margin: 10px;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="encabezado">
+        <img src="./images/logo.svg" alt="logo" />
+
+        <nav>
+          <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Anuncios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1>Venta de Casas y Departamentos Exclusivos de lujo</h1>
+    </header>
+
+    <section>
+      <h2>Más Sobre Nosotros</h2>
+      <div id="sectionUno">
+        <div class="articuloSection">
+          <img src="./images/icono1.svg" alt="foto seguridad" />
+          <h3>Seguridad</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+            illum eligendi voluptas amet neque nulla esse sunt similique.
+            Quisquam quod eum inventore nulla suscipit veniam qui culpa animi
+            iure eos?
+          </p>
+        </div>
+        <div class="articuloSection">
+          <img src="./images/icono2.svg" alt="foto precio" />
+          <h3>El mejor precio</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+            exercitationem, libero neque esse nulla qui id nam similique
+            deserunt adipisci aliquid est possimus odio quisquam. Quod inventore
+            dolor omnis.
+          </p>
+        </div>
+        <div class="articuloSection">
+          <img src="./images/icono3.svg" alt="foto a tiempo" />
+          <h3>A Tiempo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            expedita non incidunt beatae modi voluptatibus quas odio. Nulla,
+            odio, doloribus accusantium vitae explicabo ex dolor fuga vel magni
+            laudantium a?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <h2>Casas y departamentos en venta</h2>
+
+      <div class="articles-container">
+        <article>
+          <img src="./images/anuncio1.jpg" alt="anuncio 1" class="mainImage" />
+          <h3>Casa de Lujo en el Lago</h3>
+          <p>Casa en el lago con excelente vista a un excelente precio</p>
+          <p class="priceText">U$350000</p>
+
+          <ul>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_wc.svg"
+                alt="icono baño"
+              /><span>3</span>
+            </li>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_estacionamiento.svg"
+                alt="icono estacionamiento"
+              /><span>3</span>
+            </li>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_dormitorio.svg"
+                alt="icono dormitorio"
+              />
+              <span>4</span>
+            </li>
+          </ul>
+          <a href="#" class="button">Ver propiedad</a>
+        </article>
+
+        <article>
+          <img src="./images/anuncio2.jpg" alt="anuncio 2" class="mainImage" />
+          <h3>Casa terminados de Lujo</h3>
+          <p>
+            Casa con diseño moderno, así como tecnología inteligente y amueblada
+          </p>
+          <p class="priceText">U$275000</p>
+          <ul>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_wc.svg"
+                alt="icono baño"
+              /><span>3</span>
+            </li>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_estacionamiento.svg"
+                alt="icono estacionamiento"
+              /><span>3</span>
+            </li>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_dormitorio.svg"
+                alt="icono dormitorio"
+              />
+              <span>4</span>
+            </li>
+          </ul>
+          <a href="#">Ver propiedad</a>
+        </article>
+
+        <article>
+          <img src="./images/anuncio3.jpg" alt="anuncio 3" class="mainImage" />
+          <h3>Casa con pileta</h3>
+          <p>
+            Casa con pileta y acabados de lujo en la ciudad, excelente
+            oportunidad
+          </p>
+          <p class="priceText">U$250000</p>
+          <ul>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_wc.svg"
+                alt="icono baño"
+              /><span>3</span>
+            </li>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_estacionamiento.svg"
+                alt="icono estacionamiento"
+              /><span>3</span>
+            </li>
+            <li>
+              <img
+                class="icon-article"
+                src="./images/icono_dormitorio.svg"
+                alt="icono dormitorio"
+              />
+              <span>4</span>
+            </li>
+          </ul>
+          <a href="#">Ver propiedad</a>
+        </article>
+      </div>
+
+      <a href="#">Ver todas</a>
+    </main>
+
+    <section>
+      <h2>Encuentra la casa de tus sueños</h2>
+      <p>
+        Llena el formulario de contacto y un asesor se pondrá en contacto a la
+        brevedad
+      </p>
+
+      <a href="#">Contactanos</a>
+    </section>
+
+    <section>
+      <h2>Nuestro Blog</h2>
+
+      <article>
+        <img src="./images/blog1.jpg" alt="blog 1" />
+        <h3>Terraza en el techo de tu casa</h3>
+        <p>Escrito el: <date>30/03/2021</date> por <span>Admin</span></p>
+        <p>
+          Consejos para construir una terraza en el tehcho de tu casa, con los
+          mejores materiales y ahorrando dinero
+        </p>
+      </article>
+
+      <article>
+        <img src="./images/blog2.jpg" alt="blog 2" />
+        <h3>Guía para la decoración de tu hogar</h3>
+        <p>Escrito el: <date>30/03/2021</date> por <span>Admin</span></p>
+        <p>
+          Maximiza el espacio en tu hogar con esta guia, aprende a combinar
+          muebles y colores para darle vida a tu espacio
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Comentarios</h2>
+      <img src="./images/comilla.svg" alt="svg comillas" />
+      <blockquote>
+        El personal se comporto de una excelente forma, muy buena atencion y la
+        casa que me ofrecieron cumple con todas mis expectativas.
+        <cite>-Juan Perez</cite>
+      </blockquote>
+    </section>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Anuncios</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <p>Todos los derechos reservados<date>2021</date>&copy;</p>
+    </footer>
+  </body>
+</html>
