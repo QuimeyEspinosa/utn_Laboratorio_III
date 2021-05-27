@@ -1,0 +1,17 @@
+export const marcas = [
+  { marca: "Ford" },
+  { marca: "Dodge" },
+  { marca: "GMC" },
+  { marca: "Chrysler" },
+  { marca: "Ford" },
+  { marca: "Lincoln" },
+  { marca: "BMW" },
+  { marca: "Kia" },
+  { marca: "Lotus" },
+  { marca: "Cadillac" },
+  { marca: "Chevrolet" },
+  { marca: "Volkswagen" },
+  { marca: "Suzuki" },
+  { marca: "Subaru" },
+  { marca: "Volkswagen" },
+];

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        background-color: black;
+      }
+    </style>
+    <script>
+      const nombres = ["Juan", "Ana", "Pedro", "Lucia"];
+
+      //--------------FILTER---------------
+      nombres.filter((elemento, index, array) => {
+        console.log(elemento, index, array);
+      });
+
+      console.log(
+        nombres.filter((elemento, index, array) => {
+          return elemento.length > 4;
+        })
+      );
+
+      //----------------MAP----------------
+      console.log(
+        nombres.map((e, index) => {
+          return { id: index, nombres: e };
+        })
+      );
+
+      const empleados = [
+        { id: 0, nombres: "Juan", sueldo: 100 },
+        { id: 1, nombres: "Ana", sueldo: 200 },
+        { id: 2, nombres: "Pedro", sueldo: 50 },
+        { id: 3, nombres: "Lucia", sueldo: 70 },
+      ];
+
+      console.log(
+        empleados.map((e) => {
+          e.sueldo += e.sueldo * 0.5;
+          return e;
+        })
+      );
+
+      const sueldos = empleados.map((e) => e.sueldo);
+
+      //--------------REDUCE---------------
+      let suma = sueldos.reduce((previo, actual) => {
+          return previo + actual;
+      }, 0);
+
+      console.log(suma);
+    </script>
+  </body>
+</html>

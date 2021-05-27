@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js" type="module" defer></script>
+    <!--defer hace que el script se ejecute luego de cargar el documento-->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tabla dinamica</h1>
+      <form>
+        <input type="hidden" name="id" />
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Ingrese nombre"
+          required
+        /><br /><br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Ingrese email"
+          required
+        /><br /><br />
+
+        <fieldset>
+          <legend>Genero</legend>
+          <input
+            type="radio"
+            name="sexo"
+            value="Masculino"
+            checked
+          />Masculino<br />
+          <input type="radio" name="sexo" value="Femenino" />Femenino<br />
+        </fieldset>
+        <input
+          type="submit"
+          id="btnSubmit"
+          value="Alta persona"
+          style="margin-top: 5px"
+        />
+        <input type="button" id="btnEliminar" value="Eliminar" class="oculto" />
+      </form>
+      <div id="spinner-container"></div>
+      <div id="divTabla"></div>
+    </div>
+  </body>
+</html>
