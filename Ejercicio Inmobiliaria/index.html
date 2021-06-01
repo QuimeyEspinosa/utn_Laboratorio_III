@@ -14,7 +14,28 @@
         font-family: Arial, Helvetica, sans-serif;
       }
 
-      header {
+      .title {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        font-size: 35px;
+        font-weight: lighter;
+      }
+
+      .headerTitle {
+        margin: 0px 20px 40px 20px;
+        width: 550px;
+        line-height: 60px;
+      }
+
+      .div-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      /*---HEADER---*/
+      #headerIndex {
         display: flex;
         flex-direction: column;
         background-color: black;
@@ -23,12 +44,6 @@
         background-repeat: no-repeat;
         background-position: center;
         color: #fff;
-      }
-
-      header h1 {
-        margin: 0px 20px 40px 20px;
-        width: 500px;
-        line-height: 60px;
       }
 
       .encabezado {
@@ -52,8 +67,111 @@
         margin: 10px;
         color: #fff;
       }
+      /*---HEADER---*/
+
+      /*---SECTION---*/
+      #firstSection {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .elementSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0px 40px 0px 40px;
+      }
+
+      .elementSection h3 {
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
+
+      .elementSection p {
+        line-height: 35px;
+      }
+      /*---SECTION---*/
+
+      /*---MAIN---*/
+      #mainIndex {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+      }
+
+      .elementArticle {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: 5px;
+        border: 2px solid #b3b3b3;
+        background-color: #f8f8f8;
+      }
+
+      .elementArticle h3 {
+        text-align: start;
+        margin: 30px 20px 20px 20px;
+        font-size: 25px;
+      }
+
+      .elementArticle p {
+        text-align: start;
+        margin: 0px 20px;
+        line-height: 30px;
+      }
+
+      .text-green {
+        color: #5bb600;
+      }
+
+      .elementArticle ul {
+        display: flex;
+        list-style: none;
+        padding: 0px;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      .elementArticle li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .elementArticle li,
+      span {
+        margin: 5px 10px 5px 20px;
+      }
+
+      .btn-article {
+        background-color: chocolate;
+        margin: 0px 20px 20px 20px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .btn-main {
+        display: flex;
+        align-self: flex-end;
+      }
+
+      .btn-main a{
+        background-color: greenyellow;
+        margin: 40px 0px 0px 0px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      /*---MAIN---*/
     </style>
-    <header>
+    <header id="headerIndex">
       <div class="encabezado">
         <img src="./images/logo.svg" alt="logo" />
 
@@ -67,125 +185,133 @@
         </nav>
       </div>
 
-      <h1>Venta de casas y departamentos exclusivos de lujo</h1>
+      <h1 class="headerTitle">
+        Venta de Casas y Departamentos Exclusivos de Lujo
+      </h1>
     </header>
 
-    <section>
-      <h2>Más Sobre Nosotros</h2>
+    <section id="firstSection">
+      <h2 class="title">Más Sobre Nosotros</h2>
 
-      <div>
-        <img src="./images/icono1.svg" alt="foto seguridad" />
-        <h3>Seguridad</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime illum
-          eligendi voluptas amet neque nulla esse sunt similique. Quisquam quod
-          eum inventore nulla suscipit veniam qui culpa animi iure eos?
-        </p>
-      </div>
-      <div>
-        <img src="./images/icono2.svg" alt="foto precio" />
-        <h3>El mejor precio</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
-          exercitationem, libero neque esse nulla qui id nam similique deserunt
-          adipisci aliquid est possimus odio quisquam. Quod inventore dolor
-          omnis.
-        </p>
-      </div>
-      <div>
-        <img src="./images/icono3.svg" alt="foto a tiempo" />
-        <h3>A Tiempo</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure expedita
-          non incidunt beatae modi voluptatibus quas odio. Nulla, odio,
-          doloribus accusantium vitae explicabo ex dolor fuga vel magni
-          laudantium a?
-        </p>
+      <div class="div-container">
+        <div class="elementSection">
+          <img src="./images/icono1.svg" alt="foto seguridad" />
+          <h3>Seguridad</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+            illum eligendi voluptas amet neque nulla esse sunt similique.
+            Quisquam quod eum inventore nulla suscipit veniam qui culpa animi
+            iure eos?
+          </p>
+        </div>
+        <div class="elementSection">
+          <img src="./images/icono2.svg" alt="foto precio" />
+          <h3>El mejor precio</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe
+            exercitationem, libero neque esse nulla qui id nam similique
+            deserunt adipisci aliquid est possimus odio quisquam. Quod inventore
+            dolor omnis.
+          </p>
+        </div>
+        <div class="elementSection">
+          <img src="./images/icono3.svg" alt="foto a tiempo" />
+          <h3>A Tiempo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            expedita non incidunt beatae modi voluptatibus quas odio. Nulla,
+            odio, doloribus accusantium vitae explicabo ex dolor fuga vel magni
+            laudantium a?
+          </p>
+        </div>
       </div>
     </section>
 
-    <main>
-      <h2>Casas y departamentos en venta</h2>
+    <main id="mainIndex">
+      <h2 class="title">Casas y departamentos en venta</h2>
 
-      <article>
-        <img src="./images/anuncio1.jpg" alt="anuncio 1" />
-        <h3>Casa de Lujo en el Lago</h3>
-        <p>Casa en el lago con excelente vista a un excelente precio</p>
-        <p>U$350000</p>
+      <div class="div-container">
+        <article class="elementArticle">
+          <img src="./images/anuncio1.jpg" alt="anuncio 1" />
 
-        <ul>
-          <li>
-            <img src="./images/icono_wc.svg" alt="icono baño" /><span>3</span>
-          </li>
-          <li>
-            <img
-              src="./images/icono_estacionamiento.svg"
-              alt="icono estacionamiento"
-            /><span>3</span>
-          </li>
-          <li>
-            <img src="./images/icono_dormitorio.svg" alt="icono dormitorio" />
-            <span>4</span>
-          </li>
-        </ul>
-        <a href="#">Ver propiedad</a>
-      </article>
+          <h3>Casa de Lujo en el Lago</h3>
+          <p>Casa en el lago con excelente vista a un excelente precio</p>
+          <p class="text-green">U$350000</p>
 
-      <article>
-        <img src="./images/anuncio2.jpg" alt="anuncio 2" />
-        <h3>Casa terminados de Lujo</h3>
-        <p>
-          Casa con diseño moderno, así como tecnología inteligente y amueblada
-        </p>
-        <p>U$275000</p>
-        <ul>
-          <li>
-            <img src="./images/icono_wc.svg" alt="icono baño" /><span>3</span>
-          </li>
-          <li>
-            <img
-              src="./images/icono_estacionamiento.svg"
-              alt="icono estacionamiento"
-            /><span>3</span>
-          </li>
-          <li>
-            <img src="./images/icono_dormitorio.svg" alt="icono dormitorio" />
-            <span>4</span>
-          </li>
-        </ul>
-        <a href="#">Ver propiedad</a>
-      </article>
-
-      <article>
-        <img src="./images/anuncio3.jpg" alt="anuncio 3" />
-        <h3>Casa con pileta</h3>
-        <p>
-          Casa con pileta y acabados de lujo en la ciudad, excelente oportunidad
-        </p>
-        <p>U$250000</p>
-        <ul>
-          <li>
-            <img src="./images/icono_wc.svg" alt="icono baño" /><span>3</span>
-          </li>
-          <li>
-            <img
-              src="./images/icono_estacionamiento.svg"
-              alt="icono estacionamiento"
-            /><span>3</span>
-          </li>
-          <li>
-            <img src="./images/icono_dormitorio.svg" alt="icono dormitorio" />
-            <span>4</span>
-          </li>
-        </ul>
-        <a href="#">Ver propiedad</a>
-      </article>
-
-      <a href="#">Ver todas</a>
+          <ul>
+            <li>
+              <img src="./images/icono_wc.svg" alt="icono baño" /><span>3</span>
+            </li>
+            <li>
+              <img
+                src="./images/icono_estacionamiento.svg"
+                alt="icono estacionamiento"
+              /><span>3</span>
+            </li>
+            <li>
+              <img src="./images/icono_dormitorio.svg" alt="icono dormitorio" />
+              <span>4</span>
+            </li>
+          </ul>
+          <a href="#" class="btn-article">Ver Propiedad</a>
+        </article>
+        <article class="elementArticle">
+          <img src="./images/anuncio2.jpg" alt="anuncio 2" />
+          <h3>Casa terminados de Lujo</h3>
+          <p>
+            Casa con diseño moderno, así como tecnología inteligente y amueblada
+          </p>
+          <p class="text-green">U$275000</p>
+          <ul>
+            <li>
+              <img src="./images/icono_wc.svg" alt="icono baño" /><span>3</span>
+            </li>
+            <li>
+              <img
+                src="./images/icono_estacionamiento.svg"
+                alt="icono estacionamiento"
+              /><span>3</span>
+            </li>
+            <li>
+              <img src="./images/icono_dormitorio.svg" alt="icono dormitorio" />
+              <span>4</span>
+            </li>
+          </ul>
+          <a href="#" class="btn-article">Ver Propiedad</a>
+        </article>
+        <article class="elementArticle">
+          <img src="./images/anuncio3.jpg" alt="anuncio 3" />
+          <h3>Casa con pileta</h3>
+          <p>
+            Casa con pileta y acabados de lujo en la ciudad, excelente
+            oportunidad
+          </p>
+          <p class="text-green">U$250000</p>
+          <ul>
+            <li>
+              <img src="./images/icono_wc.svg" alt="icono baño" /><span>3</span>
+            </li>
+            <li>
+              <img
+                src="./images/icono_estacionamiento.svg"
+                alt="icono estacionamiento"
+              /><span>3</span>
+            </li>
+            <li>
+              <img src="./images/icono_dormitorio.svg" alt="icono dormitorio" />
+              <span>4</span>
+            </li>
+          </ul>
+          <a href="#" class="btn-article">Ver Propiedad</a>
+        </article>
+      </div>
+      <div class="btn-main">
+        <a href="#">Ver todas</a>
+      </div>
     </main>
 
     <section>
-      <h2>Encuentra la casa de tus sueños</h2>
+      <h2 class="title">Encuentra la casa de tus sueños</h2>
       <p>
         Llena el formulario de contacto y un asesor se pondrá en contacto a la
         brevedad

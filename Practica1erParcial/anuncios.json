@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "titulo": "Casa moderna",
+    "transaccion": "alquiler",
+    "descripcion": "Graceland",
+    "precio": 3947249,
+    "num_wc": 30,
+    "num_estacionamiento": 5,
+    "num_dormitorio": 1
+  },
+  {
+    "id": 2,
+    "titulo": "Casa de lujo en la montaña",
+    "transaccion": "venta",
+    "descripcion": "Paget",
+    "precio": 1892332,
+    "num_wc": 12,
+    "num_estacionamiento": 67,
+    "num_dormitorio": 5
+  },
+  {
+    "id": 3,
+    "titulo": "Departamento con vista al mar",
+    "transaccion": "venta",
+    "descripcion": "Mcguire",
+    "precio": 1928778,
+    "num_wc": 97,
+    "num_estacionamiento": 21,
+    "num_dormitorio": 2
+  },
+  {
+    "id": 4,
+    "titulo": "Casa de lujo en la montaña",
+    "transaccion": "venta",
+    "descripcion": "Corben",
+    "precio": 3523295,
+    "num_wc": 93,
+    "num_estacionamiento": 98,
+    "num_dormitorio": 2
+  },
+  {
+    "id": 5,
+    "titulo": "Casa moderna",
+    "transaccion": "alquiler",
+    "descripcion": "Summer Ridge",
+    "precio": 234786,
+    "num_wc": 46,
+    "num_estacionamiento": 64,
+    "num_dormitorio": 3
+  },
+  {
+    "id": 6,
+    "titulo": "Casa moderna",
+    "transaccion": "alquiler",
+    "descripcion": "Pepper Wood",
+    "precio": 3187533,
+    "num_wc": 33,
+    "num_estacionamiento": 26,
+    "num_dormitorio": 3
+  },
+  {
+    "id": 7,
+    "titulo": "Departamento con vista al mar",
+    "transaccion": "venta",
+    "descripcion": "Messerschmidt",
+    "precio": 3313412,
+    "num_wc": 50,
+    "num_estacionamiento": 53,
+    "num_dormitorio": 1
+  },
+  {
+    "id": 8,
+    "titulo": "Casa de lujo en la montaña",
+    "transaccion": "alquiler",
+    "descripcion": "Ridgeway",
+    "precio": 726548,
+    "num_wc": 10,
+    "num_estacionamiento": 65,
+    "num_dormitorio": 1
+  },
+  {
+    "id": 9,
+    "titulo": "Departamento con vista al mar",
+    "transaccion": "alquiler",
+    "descripcion": "Grim",
+    "precio": 4098606,
+    "num_wc": 45,
+    "num_estacionamiento": 80,
+    "num_dormitorio": 2
+  },
+  {
+    "id": 10,
+    "titulo": "Departamento con vista al mar",
+    "transaccion": "venta",
+    "descripcion": "Cardinal",
+    "precio": 1517535,
+    "num_wc": 51,
+    "num_estacionamiento": 66,
+    "num_dormitorio": 3
+  },
+  {
+    "id": 11,
+    "titulo": "Casa de lujo en la montaña",
+    "transaccion": "alquiler",
+    "descripcion": "Lakewood Gardens",
+    "precio": 602528,
+    "num_wc": 59,
+    "num_estacionamiento": 32,
+    "num_dormitorio": 2
+  },
+  {
+    "id": 12,
+    "titulo": "Casa de lujo en la montaña",
+    "transaccion": "alquiler",
+    "descripcion": "Maple Wood",
+    "precio": 817100,
+    "num_wc": 99,
+    "num_estacionamiento": 72,
+    "num_dormitorio": 5
+  },
+  {
+    "id": 13,
+    "titulo": "Departamento con vista al mar",
+    "transaccion": "alquiler",
+    "descripcion": "Nevada",
+    "precio": 3319972,
+    "num_wc": 69,
+    "num_estacionamiento": 63,
+    "num_dormitorio": 3
+  },
+  {
+    "id": 14,
+    "titulo": "Departamento con vista al mar",
+    "transaccion": "venta",
+    "descripcion": "Hoepker",
+    "precio": 3051348,
+    "num_wc": 61,
+    "num_estacionamiento": 91,
+    "num_dormitorio": 1
+  },
+  {
+    "id": 15,
+    "titulo": "Casa de lujo en la montaña",
+    "transaccion": "venta",
+    "descripcion": "Twin Pines",
+    "precio": 3402007,
+    "num_wc": 19,
+    "num_estacionamiento": 71,
+    "num_dormitorio": 4
+  },
+  {
+    "id": 16,
+    "titulo": "Casa moderna",
+    "transaccion": "alquiler",
+    "descripcion": "West",
+    "precio": 3987968,
+    "num_wc": 29,
+    "num_estacionamiento": 72,
+    "num_dormitorio": 1
+  },
+  {
+    "id": 17,
+    "titulo": "Departamento con vista al mar",
+    "transaccion": "alquiler",
+    "descripcion": "Mallory",
+    "precio": 1226125,
+    "num_wc": 98,
+    "num_estacionamiento": 7,
+    "num_dormitorio": 3
+  },
+  {
+    "id": 18,
+    "titulo": "Casa moderna",
+    "transaccion": "alquiler",
+    "descripcion": "Lien",
+    "precio": 726812,
+    "num_wc": 38,
+    "num_estacionamiento": 59,
+    "num_dormitorio": 4
+  },
+  {
+    "id": 19,
+    "titulo": "Casa moderna",
+    "transaccion": "alquiler",
+    "descripcion": "Village Green",
+    "precio": 2246152,
+    "num_wc": 16,
+    "num_estacionamiento": 31,
+    "num_dormitorio": 3
+  },
+  {
+    "id": 20,
+    "titulo": "Casa de lujo en la montaña",
+    "transaccion": "venta",
+    "descripcion": "Erie",
+    "precio": 4438871,
+    "num_wc": 2,
+    "num_estacionamiento": 67,
+    "num_dormitorio": 5
+  }
+]
